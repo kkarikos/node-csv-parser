@@ -84,7 +84,10 @@ The following method are available:
 Options are:
 
 -   *delimiter*    
-    Set the field delimiter, one character only, default to comma.
+    Set the field delimiter, one character only, default to comma. Use 'auto' if you want automatic detection, see possibleDelimiters param when using this.
+    
+-   *possibleDelimiters*
+    Set array of characters which may be detected as delimiters. Defaults to [',',';','\t'].
     
 -   *quote*    
     Set the field delimiter, one character only, default to double quotes.
